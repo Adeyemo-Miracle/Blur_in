@@ -11,12 +11,16 @@ body{
     overflow: hidden;
     margin: 0;
 }
+.loading-text{
+    font-size: 50px;
+    color: #fff;
+}
 .bg{
-    background-image: url(./images\ \(5\).jpeg);
+    background-image: url(./desktop-wallpaper.jpg);
     background-repeat: no-repeat; background-position: center; background-size:cover;
     position:absolute;
     top: 0; left: 0;
     width: 100vw; height: 100vh;
     z-index: -1;
-    filter: blur(0px);
+    filter: blur(50px);
 }
