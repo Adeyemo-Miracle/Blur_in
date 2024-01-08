@@ -2,6 +2,21 @@
     box-sizing: border-box;
     padding: 0; margin: 0;
 }
-div{
-    background-image: url();
+body{
+    font-family: 'Ubuntu',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.bg{
+    background-image: url(./images\ \(5\).jpeg);
+    background-repeat: no-repeat; background-position: center; background-size:cover;
+    position:absolute;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    z-index: -1;
+    filter: blur(0px);
 }
